@@ -1,0 +1,75 @@
+html,body {
+    width: 292px;
+    height: 285.156px;
+    margin: 0px;
+    padding: 0px;
+    border-style: dotted;
+    border-width: thin;
+    background-color: buttonface;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    justify-content: center;
+}
+
+.ui {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.ui button {
+    margin-left: -10px;
+    padding: 3px 43px 3px 43px;
+}
+
+.nav {
+    width: 380px;
+    height: 10px;
+    position: relative;
+    right: 39px;
+    bottom: 15px;
+}
+
+#dictionary {
+    position: relative;
+    top: 7
+}
+
+#myForm {
+    position: relative;
+    top: 9px;
+}
+
+#myForm2 input {
+    position: relative;
+    left: 93px;
+}
+
+#translator {
+    position: relative;
+    bottom: 179px;
+    visibility: hidden;
+}
+
+#translator-output {
+    position: relative;
+    top: 19px;
+}
+
+#manipulate-translator-input {
+    position: relative;
+    bottom: 81px;
+}
+
+select, p{
+    display: inline;
+}
+
+p
+
+select {
+    position: relative;
+    right: 50;
+    size: 10px 10px;
+}
