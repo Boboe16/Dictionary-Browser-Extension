@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bulaloi's Dictionary</title>
+</head>
+<body>
+
+  <div class="ui">
+
+    <div class="header">
+
+      <h2>Bulaloi's Dictionary</h2>
+
+      <div class="nav">
+        <button id="dictionary-nav">Dictionary</button>
+        <button id="translator-nav">Translator</button>
+      </div>
+      
+    </div>
+
+    <div id="dictionary">
+      <form id="myForm">
+        <input id="dictionary-input" type="text" placeholder="                Enter Topic">
+        <input type="submit" value="Submit">
+      </form>
+      <textarea id="dictionary-output" cols="30" rows="10"></textarea>
+      <div><p style="font-size: 12px; color: grey; ">Note: Bulaloi's Dictinary only supports English</p></div>
+    </div>
+  
+  <div id="translator">
+    <form id="myForm2">
+      <textarea id="translator-input" cols="30" rows="5" placeholder="Enter text"></textarea>
+      <textarea id="translator-output" cols="30" rows="5" placeholder="Translation"></textarea>
+        <div id="manipulate-translator-input">
+          <select name="" id="to-translate">
+            <option value="Tagalog">Tagalog</option>
+            <option value="English">English</option>
+            <option value="Spanish">Spanish</option>
+            <option value="Russian">Russian</option>
+            <option value="Mandarin">Mandarin</option>
+            <option value="Japanese">Japanese</option>
+          </select> 
+          <span>
+            <p>to</p>
+            <select name="" id="translate-in">
+              <option value="Tagalog">Tagalog</option>
+              <option value="English">English</option>
+              <option value="Spanish">Spanish</option>
+              <option value="Russian">Russian</option>
+              <option value="Mandarin">Mandarin</option>
+              <option value="Japanese">Japanese</option>
+            </select> 
+          </span>
+        </div>
+      <input type="submit" id="myForm2submit">
+    </form>
+  </div>
+
+  <script src="index.js"></script>      
+</body>
+</html>
