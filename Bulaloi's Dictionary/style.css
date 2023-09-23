@@ -21,6 +21,10 @@ html,body {
     padding: 3px 43px 3px 43px;
 }
 
+#dictionary-nav, #translator-nav {
+    cursor: pointer;
+}
+
 .nav {
     width: 380px;
     height: 10px;
