@@ -1,34 +1,53 @@
-<h1>Language Translator & Dictionary</h1>
-Tired of having to switch between different websites for translation and dictionary purposes? Say goodbye to that hassle with Language Translator & Dictionary! With just one click, get both translation and definition of any word right in one place.
+# Dictionary & Translator Browser Extension
 
-This is a browser extension that provides functionality to translate and search for definitions of words. It makes use of two APIs:
-<ul>
-<li>The Dictionary API (dictionaryapi.dev) to search for definitions of words</li>
-<li>The MyMemory Translated API (mymemory.translated.net) to translate texts to different languages</li>
-</ul>
-The extension is written in JavaScript and uses the browser's local storage to save words and their definitions/translations.
+A lightweight and efficient browser extension that provides instant word definitions and translations. Perfect for students, researchers, and language learners.
 
-<h2>How to Use</h2>
-<ol>
-<li>Download the code from the repository and unzip it.</li>
-<li>Open Google Chrome and go to chrome://extensions/</li>
-<li>Enable the developer mode from the top-right corner.</li>
-<li>Click on "Load Unpacked" and select the unzipped folder.</li>
-<li>The extension will be added to the browser, and you can access it from the browser toolbar.</li>
-<li>Shortcut the extension through chrome://extensions/shortcuts</li>
-</ol>
+## 🚀 Features
 
-<h2>Code Functions</h2>
-The code is written in JavaScript and has several functions. Let's discuss each function in detail:
-<ul>
-<li>translator_nav and dictionary_nav:</li>
-These functions add a click event listener to the navigation buttons for the translator and dictionary sections. When the respective button is clicked, the visibility of the corresponding section is changed to visible while the visibility of the other section is changed to hidden.
+- Instant word definitions
+- Quick translations between multiple languages
+- Simple and user-friendly interface
+- Works offline for previously searched words
+- Lightweight and fast
 
-<li>submit_topic_for_dictionary:</li>
-This function adds a submit event listener to the dictionary form. When the form is submitted, the word entered by the user is fetched from the API and its definition is displayed in the output field.
+## 🛠 Tech Stack
 
-<li>submit_topic_for_translator:</li>:
-This function adds a submit event listener to the translator form. When the form is submitted, the text entered by the user is translated from one language to another, as specified by the user, using the API. The translated text is displayed in the output field.
-</ul>
-<h2>Conclusion</h2>
-Language Translator & Dictionary is a browser extension that provides functionality to translate and search for definitions of words. The code is written in JavaScript and makes use of APIs to provide the desired functionality. The code functions are well explained, and you can easily understand how the extension works.
+This browser extension is built using:
+
+- **JavaScript** - Core functionality
+- **HTML & CSS** - Structure and styling
+- **Git & GitHub** - Version control and repository hosting
+
+## 📦 Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Boboe16/dictionary-extension.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd dictionary-extension
+   ```
+3. Load the extension in your browser:
+   - Open Chrome and go to `chrome://extensions/`
+   - Enable **Developer mode**
+   - Click **Load unpacked** and select the project folder
+
+## 🌐 Usage
+
+- Highlight any word on a webpage and click the extension icon to see its definition and translation.
+- Use the popup search bar to manually enter words for lookup.
+
+## 🤝 Contribution
+
+Contributions are welcome! To contribute:
+- Fork the repository.
+- Create a new branch (`feature/your-feature`)
+- Commit your changes.
+- Push to the branch and create a pull request.
+
+## 📧 Contact
+
+For any inquiries or support, feel free to reach out:
+- **Email**: jerixmodz@gmail.com
+- **GitHub**: [Boboe16](https://github.com/Boboe16)
